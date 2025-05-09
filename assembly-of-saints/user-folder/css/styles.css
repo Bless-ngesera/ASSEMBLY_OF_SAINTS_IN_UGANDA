@@ -1,0 +1,66 @@
+/assembly-of-saints/assembly-of-saints/frontend/css/styles.css
+
+/* Custom styles for the Assembly of Saints in Uganda web application */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafb; /* Tailwind's gray-100 */
+}
+
+/* Header Styles */
+header {
+    background-color: #4a5568; /* Tailwind's gray-700 */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #2d3748; /* Tailwind's gray-800 */
+}
+
+nav a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #4a5568; /* Tailwind's gray-700 */
+}
+
+/* Main Content Styles */
+main {
+    padding: 2rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4a5568; /* Tailwind's gray-700 */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+    
+    nav a {
+        padding: 0.5rem;
+    }
+} 
+
+/* Additional styles can be added here as needed */
