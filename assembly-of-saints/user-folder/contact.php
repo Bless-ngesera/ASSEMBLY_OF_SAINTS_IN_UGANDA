@@ -1,3 +1,7 @@
+<?php
+include 'includes/header.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,20 +12,6 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">
-    <header class="bg-white shadow">
-        <div class="container mx-auto px-4 py-6">
-            <h1 class="text-3xl font-bold">Assembly of Saints in Uganda</h1>
-            <nav class="mt-4">
-                <ul class="flex space-x-4">
-                    <li><a href="index.html" class="text-blue-500">Home</a></li>
-                    <li><a href="preachings.html" class="text-blue-500">Preachings</a></li>
-                    <li><a href="music.html" class="text-blue-500">Music</a></li>
-                    <li><a href="about.html" class="text-blue-500">About</a></li>
-                    <li><a href="contact.html" class="text-blue-500">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
     <main class="container mx-auto px-4 py-10">
         <h2 class="text-2xl font-semibold mb-6">Contact Us</h2>
@@ -61,10 +51,9 @@
         </div>
     </main>
 
-    <footer class="bg-white shadow mt-10">
-        <div class="container mx-auto px-4 py-6 text-center">
-            <p>&copy; 2023 Assembly of Saints in Uganda. All rights reserved.</p>
-        </div>
-    </footer>
+<?php
+include 'includes/footer.php';
+?>
+
 </body>
 </html>
