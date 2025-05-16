@@ -13,15 +13,17 @@ include 'includes/header.php';
 </head>
 <body class="bg-gray-100">
     <main class="container mx-auto my-8">
+        <section class="mt-8 mb-8" id="live-stream">
+            <h2 class="text-xl font-semibold mb-4">Live Stream</h2>
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/live_stream?channel=YOUR_CHANNEL_ID" frameborder="0" allowfullscreen></iframe>
+        </section>
+
         <h2 class="text-xl font-semibold mb-4">Past Preachings</h2>
         <div id="preachings-list" class="space-y-4">
             <!-- Preachings will be dynamically loaded here -->
         </div>
 
-        <section class="mt-8">
-            <h2 class="text-xl font-semibold mb-4">Live Stream</h2>
-            <iframe width="100%" height="400" src="https://www.youtube.com/embed/live_stream?channel=YOUR_CHANNEL_ID" frameborder="0" allowfullscreen></iframe>
-        </section>
+
     </main>
 
 <?php

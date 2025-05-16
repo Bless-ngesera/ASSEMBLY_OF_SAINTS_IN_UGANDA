@@ -26,9 +26,9 @@ function redirect($url) {
  *
  * @return bool True if the user is logged in, false otherwise.
  */
-function isLoggedIn() {
-    return isset($_SESSION['user_id']);
-}
+// function isLoggedIn() {
+//     return isset($_SESSION['user_id']);
+// }
 
 /**
  * Flash a message to the session.
@@ -53,3 +53,4 @@ function getFlashMessage() {
     return null;
 }
 ?>
+

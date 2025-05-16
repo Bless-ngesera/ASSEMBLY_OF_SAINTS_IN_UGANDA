@@ -1,7 +1,16 @@
 <?php
 session_start();
-include '../includes/auth.php';
-include '../includes/db.php';
+require_once '../includes/auth.php';
+require_once '../includes/db.php';
+require_once '../includes/helpers.php'; // <-- Add this line
+
+// Define isAdmin() if not already defined
+if (!function_exists('isAdmin')) {
+    function isAdmin() {
+        // Example: check if user is logged in and has 'admin' role in session
+        return isset($_SESSION['user_role']) && $_SESSION['user_role'] === 'admin';
+    }
+}
 
 // Check if the user is logged in and is an admin
 if (!isAdmin()) {
